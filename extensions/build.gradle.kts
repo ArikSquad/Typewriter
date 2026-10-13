@@ -74,7 +74,7 @@ subprojects {
         // engine builds against.
         testImplementation("com.typewritermc:engine-paper:$typewriterEngineVersion")
         testImplementation("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
-        testImplementation("com.github.retrooper:packetevents-spigot:2.13.0")
+        testImplementation("com.github.retrooper:packetevents-spigot:2.14.0")
         testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
 
         val kotestVersion = "6.1.11"
